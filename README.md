@@ -24,6 +24,9 @@ We want to efficiently add admob support and ability to show admob adds in toga
 
 1) <b>```from java import jclass```</b>
 
+# output
+when <b>```briefcase run android```</b> is runned, the output is restored in the <b>OUTPUT.md</b>
+
 # web sources
 Mostly the codes in first link is used.
 1) https://github.com/yunus-ceyhan/kivmoblite
