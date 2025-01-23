@@ -2,6 +2,12 @@
 
 This project is created with <b>python3.8</b>, on <b>Ubuntu 20.04</b>
 
+---------------------
+
+what do we want
+-------------------------
+We want to efficiently add admob support and ability to show admob adds in toga
+
 ----------------------------------
 
 # how to setup & run
@@ -13,11 +19,8 @@ This project is created with <b>python3.8</b>, on <b>Ubuntu 20.04</b>
 5) <b>```briefcase build android```</b> has to be done each time after change in the code. Deleting the build and logs folder might help
 6) <b>```briefcase run android```</b> since many of the libraries are android libraries, they may not run on the desktop 
 
----------------------
 
-# what do we want
+# libraries that are used
 
-We want to efficiently add admob support and ability to show admob adds in toga
-
----------------------
-
+1) <b>```from java import jclass```</b>
+2) 
