@@ -23,4 +23,8 @@ We want to efficiently add admob support and ability to show admob adds in toga
 # libraries that are used
 
 1) <b>```from java import jclass```</b>
-2) 
+
+# web sources
+Mostly the codes in first link is used.
+1) https://github.com/yunus-ceyhan/kivmoblite
+2) https://github.com/MichaelStott/KivMob
