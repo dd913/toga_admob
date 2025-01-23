@@ -2,15 +2,17 @@
 
 This project is created with <b>python3.8</b>, on <b>Ubuntu 20.04</b>
 
+<a href="url"><img src="app.png" align="left" height="500" ></a>
+
 ---------------------
 
-what do we want
--------------------------
+## what do we want
+
 We want to efficiently add admob support and ability to show admob adds in toga
 
 ----------------------------------
 
-# how to setup & run
+## how to setup & run
 
 1) <b>```python3.8 -m venv env```</b>
 2) <b>```source env/bin/activate```</b>
@@ -20,7 +22,7 @@ We want to efficiently add admob support and ability to show admob adds in toga
 6) <b>```briefcase run android```</b> since many of the libraries are android libraries, they may not run on the desktop 
 
 
-# libraries that are used
+## libraries that are used
 
 1) <b>```from java import jclass```</b>
 
