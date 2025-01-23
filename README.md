@@ -25,6 +25,9 @@ libraries that are used
 # output
 when <b>```briefcase run android```</b> is runned, the output is restored in the <b>OUTPUT.md</b>
 
+# useful links
+1) https://github.com/beeware/briefcase/discussions/2112
+
 # web sources
 Mostly the codes in first link is used.
 1) https://github.com/yunus-ceyhan/kivmoblite
