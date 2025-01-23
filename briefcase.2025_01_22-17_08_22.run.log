@@ -1,0 +1,550 @@
+Date/Time:       2025-01-22 17:08:29 
+Command line:    /home/ubuntu/Desktop/toga-ads/env3.8/bin/briefcase run android
+
+OS Release:      Linux 5.15.0-130-generic
+OS Version:      #140~20.04.1-Ubuntu SMP Wed Dec 18 21:35:34 UTC 2024
+Architecture:    x86_64
+Platform:        Linux-5.15.0-130-generic-x86_64-with-glibc2.29
+
+Python exe:      /home/ubuntu/Desktop/toga-ads/env3.8/bin/python3.8
+Python version:  3.8.10 (default, Jan 17 2025, 14:40:23)  [GCC 9.4.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.19
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+	COLORTERM=truecolor
+	DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b968c816e7b08dda2b2711266790b74e
+	DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b968c816e7b08dda2b2711266790b74e
+	DBUS_STARTER_BUS_TYPE=session
+	DESKTOP_SESSION=ubuntu
+	DISPLAY=:0
+	GDMSESSION=ubuntu
+	GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+	GNOME_SHELL_SESSION_MODE=ubuntu
+	GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/4c9ce99a_0559_4350_bf1e_9ef817007bf9
+	GNOME_TERMINAL_SERVICE=:1.374
+	GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+	GTK_MODULES=gail:atk-bridge
+	HOME=/home/ubuntu
+	IM_CONFIG_PHASE=1
+	INVOCATION_ID=fb85fdbbe1d3490db008ccc822d8a5b1
+	JOURNAL_STREAM=8:47307
+	LANG=en_US.UTF-8
+	LC_ADDRESS=en_US.UTF-8
+	LC_IDENTIFICATION=en_US.UTF-8
+	LC_MEASUREMENT=en_US.UTF-8
+	LC_MONETARY=en_US.UTF-8
+	LC_NAME=en_US.UTF-8
+	LC_NUMERIC=en_US.UTF-8
+	LC_PAPER=en_US.UTF-8
+	LC_TELEPHONE=en_US.UTF-8
+	LC_TIME=en_US.UTF-8
+	LESSCLOSE=/usr/bin/lesspipe %s %s
+	LESSOPEN=| /usr/bin/lesspipe %s
+	LOGNAME=ubuntu
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+	MANAGERPID=1433
+	OLDPWD=/home/ubuntu/Desktop/toga-ads
+	PAPERSIZE=letter
+	PATH=/home/ubuntu/Desktop/toga-ads/env3.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+	PS1=(env3.8) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+	PWD=/home/ubuntu/Desktop/toga-ads/same312
+	QT_ACCESSIBILITY=1
+	QT_IM_MODULE=ibus
+	SESSION_MANAGER=local/computer:@/tmp/.ICE-unix/1591,unix/computer:/tmp/.ICE-unix/1591
+	SHELL=/bin/bash
+	SHLVL=1
+	SSH_AGENT_PID=1553
+	SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+	TERM=xterm-256color
+	USER=ubuntu
+	USERNAME=ubuntu
+	VIRTUAL_ENV=/home/ubuntu/Desktop/toga-ads/env3.8
+	VTE_VERSION=6003
+	WINDOWPATH=2
+	XAUTHORITY=/run/user/1000/gdm/Xauthority
+	XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+	XDG_CURRENT_DESKTOP=ubuntu:GNOME
+	XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+	XDG_MENU_PREFIX=gnome-
+	XDG_RUNTIME_DIR=/run/user/1000
+	XDG_SESSION_CLASS=user
+	XDG_SESSION_DESKTOP=ubuntu
+	XDG_SESSION_TYPE=x11
+	XMODIFIERS=@im=ibus
+	_=/home/ubuntu/Desktop/toga-ads/env3.8/bin/briefcase
+
+pyproject.toml:
+# This project was generated with 0.3.19 using template: https://github.com/beeware/briefcase-template@v0.3.19
+[tool.briefcase]
+project_name = "same3.12"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://example.com/same312"
+license.file = "LICENSE"
+author = "Jane Developer"
+author_email = "jane@example.com"
+
+[tool.briefcase.app.same312]
+formal_name = "same3.12"
+description = "My first application"
+long_description = """More details about the app should go here.
+"""
+sources = [
+    "src/same312",
+]
+test_sources = [
+    "tests",
+]
+
+requires = [
+]
+test_requires = [
+    "pytest",
+]
+
+[tool.briefcase.app.same312.macOS]
+universal_build = true
+requires = [
+    "toga-cocoa~=0.4.5",
+    "std-nslog~=1.0.0",
+]
+
+[tool.briefcase.app.same312.linux]
+requires = [
+    "toga-gtk~=0.4.5",
+]
+
+[tool.briefcase.app.same312.linux.system.debian]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "libcairo2-dev",
+    # Needed to compile PyGObject wheel
+    "libgirepository1.0-dev",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK and its GI bindings
+    "gir1.2-gtk-3.0",
+    "libgirepository-1.0-1",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3-module",
+    # Needed to provide WebKit2 at runtime
+    # Note: Debian 11 and Ubuntu 20.04 require gir1.2-webkit2-4.0 instead
+    # "gir1.2-webkit2-4.1",
+]
+
+[tool.briefcase.app.same312.linux.system.rhel]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-gobject-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+]
+
+system_runtime_requires = [
+    # Needed to support Python bindings to GTK
+    "gobject-introspection",
+    # Needed to provide GTK
+    "gtk3",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk3",
+]
+
+[tool.briefcase.app.same312.linux.system.suse]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to support Python bindings to GTK
+    "gobject-introspection", "typelib(Gtk) = 3.0",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3-module",
+    # Needed to provide WebKit2 at runtime
+    # "libwebkit2gtk3", "typelib(WebKit2)",
+]
+
+[tool.briefcase.app.same312.linux.system.arch]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection",
+    # Runtime dependencies that need to exist so that the
+    # Arch package passes final validation.
+    # Needed to provide GTK
+    "gtk3",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra",
+    # Needed to provide WebKit2
+    # "webkit2gtk",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to provide PyGObject bindings
+    "gobject-introspection-runtime",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk",
+]
+
+[tool.briefcase.app.same312.linux.appimage]
+manylinux = "manylinux_2_28"
+
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-gobject-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+    # Needed to provide GTK
+    "gtk3-devel",
+    # Dependencies that GTK looks for at runtime, that need to be
+    # in the build environment to be picked up by linuxdeploy
+    "libcanberra-gtk3",
+    "PackageKit-gtk3-module",
+    "gvfs-client",
+]
+
+linuxdeploy_plugins = [
+    "DEPLOY_GTK_VERSION=3 gtk",
+]
+
+[tool.briefcase.app.same312.linux.flatpak]
+flatpak_runtime = "org.gnome.Platform"
+flatpak_runtime_version = "45"
+flatpak_sdk = "org.gnome.Sdk"
+
+[tool.briefcase.app.same312.windows]
+requires = [
+    "toga-winforms~=0.4.5",
+]
+
+# Mobile deployments
+[tool.briefcase.app.same312.iOS]
+requires = [
+    "toga-iOS~=0.4.5",
+    "std-nslog~=1.0.0",
+]
+
+[tool.briefcase.app.same312.android]
+requires = [
+    "toga-android~=0.4.5",
+]
+
+base_theme = "Theme.MaterialComponents.Light.DarkActionBar"
+
+permission."android.permission.ACCESS_NETWORK_STATE"=true
+
+classpath."com.android.tools.build:gradle:8.0.2"=true
+
+android.manifest_application_extra_content = """
+    <activity
+        android:name="MyBookActivity"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.ALTERNATIVE" />
+        </intent-filter>
+    </activity>
+
+<manifest>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
+
+
+
+
+
+        
+<application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App">
+        
+        <!-- Add the AdMob App ID here -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        
+</application>        
+        
+        
+        
+"""
+
+
+implementation."com.google.android.gms:play-services-ads:23.6.0"= true
+implementation."com.google.firebase:firebase-ads:22.3.0" = true
+
+
+
+build_gradle_dependencies = [
+    "com.google.android.material:material:1.11.0",
+    # Needed for DetailedList
+    # "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+    # Needed for MapView
+    # "org.osmdroid:osmdroid-android:6.1.0",
+]
+
+# Web deployments
+[tool.briefcase.app.same312.web]
+requires = [
+    "toga-web~=0.4.5",
+]
+style_framework = "Shoelace v2.3"
+
+Briefcase Log:
+[17:07:08] Using JDK at /home/ubuntu/.cache/briefcase/tools/java17                                                                                                       java.py:258
+           Using Android SDK at /home/ubuntu/.cache/briefcase/tools/android_sdk                                                                                   android_sdk.py:362
+           Android emulator is already installed.                                                                                                                 android_sdk.py:637
+                                                                                                                                                                   subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/platform-tools/adb devices -l                                                                   subprocess.py:827
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+           >>> Command Output:                                                                                                                                     subprocess.py:827
+           >>>     List of devices attached                                                                                                                        subprocess.py:827
+           >>>     emulator-5554          device product:sdk_phone64_x86_64 model:Android_SDK_built_for_x86_64 device:emulator64_x86_64 transport_id:27            subprocess.py:827
+           >>>                                                                                                                                                     subprocess.py:827
+           >>> Return code: 0                                                                                                                                      subprocess.py:827
+                                                                                                                                                                   subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/platform-tools/adb -s emulator-5554 emu avd name                                                subprocess.py:827
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+           >>> Command Output:                                                                                                                                     subprocess.py:827
+           >>>     beePhone                                                                                                                                        subprocess.py:827
+           >>>     OK                                                                                                                                              subprocess.py:827
+           >>> Return code: 0                                                                                                                                      subprocess.py:827
+                                                                                                                                                                   subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/emulator/emulator -list-avds                                                                    subprocess.py:827
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+           >>> Command Output:                                                                                                                                     subprocess.py:827
+           >>>     beePhone                                                                                                                                        subprocess.py:827
+           >>> Return code: 0                                                                                                                                      subprocess.py:827
+                                                                                                                                                                 android_sdk.py:1015
+           Select device:                                                                                                                                        android_sdk.py:1016
+                                                                                                                                                                 android_sdk.py:1017
+             1) @beePhone (running emulator)                                                                                                                          console.py:816
+             2) Create a new Android emulator                                                                                                                         console.py:816
+                                                                                                                                                                      console.py:818
+[17:07:09] >                                                                                                                                                          console.py:821
+           User input: 1                                                                                                                                              console.py:821
+                                                                                                                                                                 android_sdk.py:1062
+           In future, you can specify this device by running:                                                                                                    android_sdk.py:1062
+                                                                                                                                                                 android_sdk.py:1062
+               $ briefcase run android -d "@beePhone"                                                                                                            android_sdk.py:1062
+                                                                                                                                                                       gradle.py:410
+           [same312] Starting app on @beePhone (running emulator) (device ID emulator-5554)                                                                            gradle.py:410
+                                                                                                                                                                       gradle.py:422
+           [same312] Installing app...                                                                                                                                 gradle.py:422
+           Stopping old versions of the app... started                                                                                                                 gradle.py:423
+                                                                                                                                                                   subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/platform-tools/adb -s emulator-5554 shell am force-stop com.example.same312                     subprocess.py:827
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+[17:07:18] >>> Return code: 0                                                                                                                                      subprocess.py:827
+           Stopping old versions of the app... done                                                                                                                    gradle.py:424
+           Installing new app version... started                                                                                                                       gradle.py:427
+                                                                                                                                                                   subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/platform-tools/adb -s emulator-5554 install -r                                                  subprocess.py:827
+           /home/ubuntu/Desktop/toga-ads/same312/build/same312/android/gradle/app/build/outputs/apk/debug/app-debug.apk                                                             
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+[17:08:02] >>> Command Output:                                                                                                                                     subprocess.py:827
+           >>>     Performing Streamed Install                                                                                                                     subprocess.py:827
+           >>>     Success                                                                                                                                         subprocess.py:827
+           >>> Return code: 0                                                                                                                                      subprocess.py:827
+           Installing new app version... done                                                                                                                          gradle.py:428
+           Launching app... started                                                                                                                                    gradle.py:431
+                                                                                                                                                                   subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/platform-tools/adb -s emulator-5554 shell date '+'"'"'%Y-%m-%d %H:%M:%S'"'"''                   subprocess.py:827
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+[17:08:07] >>> Command Output:                                                                                                                                     subprocess.py:827
+           >>>     2025-01-22 17:07:54                                                                                                                             subprocess.py:827
+           >>> Return code: 0                                                                                                                                      subprocess.py:827
+[17:08:08]                                                                                                                                                         subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/platform-tools/adb -s emulator-5554 shell am start -n                                           subprocess.py:827
+           com.example.same312/org.beeware.android.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER --es org.beeware.ARGV                             
+           ''"'"'[]'"'"''                                                                                                                                                           
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+[17:08:14] >>> Command Output:                                                                                                                                     subprocess.py:827
+           >>>     Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER]                                                        subprocess.py:827
+           cmp=com.example.same312/org.beeware.android.MainActivity (has extras) }                                                                                                  
+           >>> Return code: 0                                                                                                                                      subprocess.py:827
+[17:08:20] Launching app... done                                                                                                                                       gradle.py:445
+                                                                                                                                                                       gradle.py:467
+           [same312] Unable to find PID for app                                                                                                                        gradle.py:467
+           Logs for launch attempt follow...                                                                                                                           gradle.py:468
+           ===========================================================================                                                                                 gradle.py:469
+                                                                                                                                                                   subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/platform-tools/adb -s emulator-5554 logcat --format=tag -t '01-22 17:07:54.000000' -s           subprocess.py:827
+           'MainActivity:*' 'stdio:*' 'python.stdout:*' 'AndroidRuntime:*' --format=color                                                                                           
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+           >>> Environment Overrides:                                                                                                                              subprocess.py:827
+           >>>     ANDROID_HOME=/home/ubuntu/.cache/briefcase/tools/android_sdk                                                                                    subprocess.py:827
+           >>>     ANDROID_SDK_ROOT=/home/ubuntu/.cache/briefcase/tools/android_sdk                                                                                subprocess.py:827
+           >>>     JAVA_HOME=/home/ubuntu/.cache/briefcase/tools/java17                                                                                            subprocess.py:827
+[17:08:22] --------- beginning of main                                                                                                                             subprocess.py:195
+           D/MainActivity: onTopResumedActivityChanged() start                                                                                                     subprocess.py:195
+           D/MainActivity: onTopResumedActivityChanged() complete                                                                                                  subprocess.py:195
+           D/MainActivity: onPause() start                                                                                                                         subprocess.py:195
+           I/python.stdout: Toga app: onPause                                                                                                                      subprocess.py:195
+           D/MainActivity: onPause() complete                                                                                                                      subprocess.py:195
+           >>> Return code: 0                                                                                                                                      subprocess.py:827
+                                                                                                                                                                      __main__.py:44
+           Problem starting app 'same312'                                                                                                                             __main__.py:45
+           Saving log... started                                                                                                                                      console.py:390
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/ubuntu/Desktop/toga-ads/env3.8/lib/python3.8/site-packages/briefcase/__main__.py:29 in main                                                                                │
+│                                                                                                                                                                                  │
+│   26 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   27 │   │   │   overrides=overrides,                                                                                                                                            │
+│   28 │   │   )                                                                                                                                                                   │
+│ ❱ 29 │   │   command(**options)                                                                                                                                                  │
+│   30 │   except HelpText as e:                                                                                                                                                   │
+│   31 │   │   logger.info()                                                                                                                                                       │
+│   32 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │       command = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7fd4252197f0> │                                                                               │
+│ │       console = <briefcase.console.Console object at 0x7fd426595430>                           │                                                                               │
+│ │             e = BriefcaseCommandError("Problem starting app 'same312'")                        │                                                                               │
+│ │ extra_cmdline = []                                                                             │                                                                               │
+│ │        logger = <briefcase.console.Log object at 0x7fd4265954c0>                               │                                                                               │
+│ │       options = {                                                                              │                                                                               │
+│ │                 │   'appname': None,                                                           │                                                                               │
+│ │                 │   'update': False,                                                           │                                                                               │
+│ │                 │   'update_requirements': False,                                              │                                                                               │
+│ │                 │   'update_support': False,                                                   │                                                                               │
+│ │                 │   'update_stub': False,                                                      │                                                                               │
+│ │                 │   'update_resources': False,                                                 │                                                                               │
+│ │                 │   'no_update': False,                                                        │                                                                               │
+│ │                 │   'test_mode': False,                                                        │                                                                               │
+│ │                 │   'device_or_avd': None,                                                     │                                                                               │
+│ │                 │   'extra_emulator_args': None,                                               │                                                                               │
+│ │                 │   ... +2                                                                     │                                                                               │
+│ │                 }                                                                              │                                                                               │
+│ │     overrides = {}                                                                             │                                                                               │
+│ │       printer = <briefcase.console.Printer object at 0x7fd4269b4cd0>                           │                                                                               │
+│ │        result = 200                                                                            │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ /home/ubuntu/Desktop/toga-ads/env3.8/lib/python3.8/site-packages/briefcase/commands/run.py:325 in __call__                                                                       │
+│                                                                                                                                                                                  │
+│   322 │   │                                                                                                                                                                      │
+│   323 │   │   self.verify_app(app)                                                                                                                                               │
+│   324 │   │                                                                                                                                                                      │
+│ ❱ 325 │   │   state = self.run_app(                                                                                                                                              │
+│   326 │   │   │   app,                                                                                                                                                           │
+│   327 │   │   │   test_mode=test_mode,                                                                                                                                           │
+│   328 │   │   │   passthrough=[] if passthrough is None else passthrough,                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────────╮                              │
+│ │                 app = <com.example.same312 v0.0.1 AppConfig>                                                                                    │                              │
+│ │             appname = None                                                                                                                      │                              │
+│ │           exec_file = PosixPath('/home/ubuntu/Desktop/toga-ads/same312/build/same312/android/gradle/app/build/outputs/apk/debug/app-debug.apk') │                              │
+│ │           no_update = False                                                                                                                     │                              │
+│ │             options = {'device_or_avd': None, 'extra_emulator_args': None, 'shutdown_on_exit': False}                                           │                              │
+│ │         passthrough = []                                                                                                                        │                              │
+│ │                self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7fd4252197f0>                                            │                              │
+│ │               state = None                                                                                                                      │                              │
+│ │       template_file = PosixPath('/home/ubuntu/Desktop/toga-ads/same312/build/same312/android/gradle')                                           │                              │
+│ │           test_mode = False                                                                                                                     │                              │
+│ │              update = False                                                                                                                     │                              │
+│ │ update_requirements = False                                                                                                                     │                              │
+│ │    update_resources = False                                                                                                                     │                              │
+│ │         update_stub = False                                                                                                                     │                              │
+│ │      update_support = False                                                                                                                     │                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                              │
+│                                                                                                                                                                                  │
+│ /home/ubuntu/Desktop/toga-ads/env3.8/lib/python3.8/site-packages/briefcase/platforms/android/gradle.py:474 in run_app                                                            │
+│                                                                                                                                                                                  │
+│   471 │   │   │   │   # Show the log from the start time of the app                                                                                                              │
+│   472 │   │   │   │   adb.logcat_tail(since=device_start_time)                                                                                                                   │
+│   473 │   │   │   │                                                                                                                                                              │
+│ ❱ 474 │   │   │   │   raise BriefcaseCommandError(f"Problem starting app {app.app_name!r}")                                                                                      │
+│   475 │   │   finally:                                                                                                                                                           │
+│   476 │   │   │   if shutdown_on_exit:                                                                                                                                           │
+│   477 │   │   │   │   with self.tools.input.wait_bar("Stopping emulator..."):                                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                         │
+│ │                 adb = <briefcase.integrations.android_sdk.ADB object at 0x7fd4251a29d0>              │                                                                         │
+│ │                 app = <com.example.same312 v0.0.1 AppConfig>                                         │                                                                         │
+│ │                 avd = 'beePhone'                                                                     │                                                                         │
+│ │              device = 'emulator-5554'                                                                │                                                                         │
+│ │       device_or_avd = None                                                                           │                                                                         │
+│ │   device_start_time = datetime.datetime(2025, 1, 22, 17, 7, 54)                                      │                                                                         │
+│ │ extra_emulator_args = None                                                                           │                                                                         │
+│ │           fail_time = datetime.datetime(2025, 1, 22, 17, 8, 19, 257181)                              │                                                                         │
+│ │              kwargs = {}                                                                             │                                                                         │
+│ │               label = 'app'                                                                          │                                                                         │
+│ │                name = '@beePhone (running emulator)'                                                 │                                                                         │
+│ │             package = 'com.example.same312'                                                          │                                                                         │
+│ │         passthrough = []                                                                             │                                                                         │
+│ │                 pid = None                                                                           │                                                                         │
+│ │                self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7fd4252197f0> │                                                                         │
+│ │    shutdown_on_exit = False                                                                          │                                                                         │
+│ │           test_mode = False                                                                          │                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                         │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem starting app 'same312'
+[17:08:23] Collecting extra information for log... started                                                                                                            console.py:425
+                                                                                                                                                                      console.py:429
+           Extra information:                                                                                                                                         console.py:430
+                                                                                                                                                                   subprocess.py:827
+           >>> Running Command:                                                                                                                                    subprocess.py:827
+           >>>     /home/ubuntu/.cache/briefcase/tools/android_sdk/cmdline-tools/12.0/bin/sdkmanager --list_installed                                              subprocess.py:827
+           >>> Working Directory:                                                                                                                                  subprocess.py:827
+           >>>     /home/ubuntu/Desktop/toga-ads/same312                                                                                                           subprocess.py:827
+           >>> Environment Overrides:                                                                                                                              subprocess.py:827
+           >>>     ANDROID_HOME=/home/ubuntu/.cache/briefcase/tools/android_sdk                                                                                    subprocess.py:827
+           >>>     ANDROID_SDK_ROOT=/home/ubuntu/.cache/briefcase/tools/android_sdk                                                                                subprocess.py:827
+           >>>     JAVA_HOME=/home/ubuntu/.cache/briefcase/tools/java17                                                                                            subprocess.py:827
+[17:08:29] >>> Command Output:                                                                                                                                     subprocess.py:827
+           >>>     Loading package information...                                                                                                                  subprocess.py:827
+           >>>     Loading local repository...                                                                                                                     subprocess.py:827
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:827
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:827
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:827
+           >>>     Installed packages:                                                                                                                             subprocess.py:827
+           >>>       Path                                    | Version | Description                    | Location                                                 subprocess.py:827
+           >>>       -------                                 | ------- | -------                        | -------                                                  subprocess.py:827
+           >>>       build-tools;34.0.0                      | 34.0.0  | Android SDK Build-Tools 34     | build-tools/34.0.0                                       subprocess.py:827
+           >>>       emulator                                | 35.3.11 | Android Emulator               | emulator                                                 subprocess.py:827
+           >>>       platform-tools                          | 35.0.2  | Android SDK Platform-Tools     | platform-tools                                           subprocess.py:827
+           >>>       platforms;android-34                    | 3       | Android SDK Platform 34        | platforms/android-34                                     subprocess.py:827
+           >>>       system-images;android-31;default;x86_64 | 5       | Intel x86_64 Atom System Image | system-images/android-31/default/x86_64                  subprocess.py:827
+           >>>                                                                                                                                                     subprocess.py:827
+           >>> Return code: 0                                                                                                                                      subprocess.py:827
+           Collecting extra information for log... done                                                                                                               console.py:435
